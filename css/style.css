@@ -1,15 +1,29 @@
+:root {
+  --primary-navyblue: #2e2f42;
+  --primary-slate: #434455;
+  --primary-white: #fff;
+  --primary-iris: #4d5ae5;
+  --primary-cloud: #f4f4fd;
+  --primary-cornflower: #e7e9fc;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
 /* Header */
 .page-header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
-  flex-shrink: 0;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.Studio {
+.studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -18,15 +32,18 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio1 {
-  color: #2e2f42;
+.pre-studio {
+  color: var(--navyblue, #2e2f42);
+}
+.pre-studio-foot {
+  color: var(--cloud, #f4f4fd);
 }
 /* Header list */
 .header-conteiner-list {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -37,9 +54,8 @@ body {
 /* contacts */
 .contacts-list {
   color: var(--slate, #434455);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 24px;
 }
@@ -54,7 +70,7 @@ body {
 
   font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
@@ -64,9 +80,9 @@ body {
 }
 [type] {
   color: var(--white, #fff);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -75,18 +91,16 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
 .job-text {
-  width: 264px;
   color: var(--slate, #434455);
-  font-family: Roboto;
+
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 24px;
   letter-spacing: 0.32px;
 }
@@ -94,7 +108,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -104,7 +118,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -114,7 +128,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -122,10 +136,9 @@ body {
 .teammate-job {
   color: var(--slate, #434455);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 24px;
   letter-spacing: 0.32px;
 }
@@ -135,10 +148,9 @@ body {
 }
 .about-footer {
   color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
+
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 24px;
   letter-spacing: 0.32px;
 }
