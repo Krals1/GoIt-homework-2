@@ -106,7 +106,6 @@ body {
 }
 .work {
   color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
   font-size: 36px;
   text-align: center;
   font-weight: 700;
@@ -116,6 +115,7 @@ body {
 }
 .team {
   color: var(--navyblue, #2e2f42);
+  background-color: #f4f4fd;
   font-size: 36px;
   text-align: center;
   font-weight: 700;
