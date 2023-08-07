@@ -38,6 +38,10 @@ body {
 .pre-studio-foot {
   color: var(--cloud, #f4f4fd);
 }
+.header-conteiner .link:hover,
+.header-conteiner .link:focus {
+  color: #404bbf;
+}
 /* Header list */
 .header-conteiner-list {
   color: var(--navyblue, #2e2f42);
