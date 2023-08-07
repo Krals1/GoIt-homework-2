@@ -74,9 +74,9 @@ body {
 
   font-family: Roboto;
   font-size: 56px;
-
+  text-align: center;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .button-ground {
