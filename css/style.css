@@ -41,6 +41,9 @@ body {
 .header-conteiner .link:focus {
   color: #404bbf;
 }
+.h-main {
+  list-style: none;
+}
 /* Header list */
 .header-conteiner-list {
   color: var(--navyblue, #2e2f42);
@@ -49,7 +52,6 @@ body {
 
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02em;
 }
 .address {
   font-style: normal;
@@ -58,15 +60,21 @@ body {
 .contacts-list {
   color: var(--slate, #434455);
   font-size: 16px;
-
+  letter-spacing: 0.02em;
   font-weight: 400;
   line-height: 24px;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #404bbf;
 }
 .main-content {
   background: #fff;
 }
 .sect {
   background: #2e2f42;
+  line-height: 1.07;
+  text-align: center;
 }
 .sect-title {
   color: var(--white, #fff);
