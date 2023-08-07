@@ -108,19 +108,18 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 36px;
-
+  text-align: center;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .team {
   color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
   font-size: 36px;
-
+  text-align: center;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
