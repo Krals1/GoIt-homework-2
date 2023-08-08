@@ -76,6 +76,10 @@ body {
 .button-ground .link:focus {
   color: #404bbf;
 }
+.button-ground-pf .link:hover,
+.button-ground-pf .link:focus {
+  color: #404bbf;
+}
 
 .main-content {
   background: #fff;
