@@ -74,11 +74,12 @@ body {
 }
 .button-ground .link:hover,
 .button-ground .link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .button-ground-pf .link:hover,
 .button-ground-pf .link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+  color: #ffffff;
 }
 
 .main-content {
@@ -101,7 +102,7 @@ body {
 }
 .button-ground-pf {
   font-family: "Roboto", sans-serif;
-  background: var(--cloud #f4f4fd);
+  background: #f4f4fd;
   color: #4d5ae5;
   letter-spacing: 0.04em;
   line-height: 1.5;
@@ -140,6 +141,16 @@ body {
 }
 .work {
   color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.our-team {
+  color: var(--navyblue, #2e2f42);
+  background-color: #ffffff;
   font-size: 36px;
   text-align: center;
   font-weight: 700;
