@@ -49,7 +49,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
-
+  letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 24px;
 }
@@ -64,8 +64,8 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-.contacts-list .link:hover,
-.contacts-list .link:focus {
+.contacts-conteiner .link:hover,
+.contacts-conteiner .link:focus {
   color: #404bbf;
 }
 .main-content {
