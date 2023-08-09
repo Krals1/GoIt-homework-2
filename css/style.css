@@ -72,12 +72,12 @@ body {
 .buttons .link:focus {
   color: #404bbf;
 }
-.button-ground .link:hover,
-.button-ground .link:focus {
+.button-ground:hover,
+.button-ground:focus {
   background-color: #404bbf;
 }
-.button-ground-pf .link:hover,
-.button-ground-pf .link:focus {
+.button-ground-pf:hover,
+.button-ground-pf:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
